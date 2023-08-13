@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Prova 2</title>
+</head>
+
+<body>
+
+    <form action="#" id="corpo">
+
+        <div class="visor" id="visor">
+
+            <label for="valores">Valor</label>
+            <input type="text" id="valores" placeholder="0">
+
+        </div>
+
+        <div class="teclado" id="teclado">
+
+            <button class="botoes especial" value="c" id="limpar">c</button>
+            <button class="botoes especial" value="r" id="raiz">r</button>
+            <button class="botoes especial" value="q" id="quadrado">q</button>
+            <button class="botoes operacao" value="/" id="dividir">/</button>
+            <button class="botoes numericos" onclick="valor()" value="7" id="7">7</button>
+            <button class="botoes numericos" onclick="valor()" value="8" id="8">8</button>
+            <button class="botoes numericos" onclick="valor()" value="9" id="9">9</button>
+            <button class="botoes operacao" value="*" id="multiplicar">x</button>
+            <button class="botoes numericos" onclick="valor()" value="4" id="4">4</button>
+            <button class="botoes numericos" onclick="valor()" value="5" id="5">5</button>
+            <button class="botoes numericos" onclick="valor()" value="6" id="6">6</button>
+            <button class="botoes operacao" value="-" id="subtrair">-</button>
+            <button class="botoes numericos" onclick="valor()" value="1" id="1">1</button>
+            <button class="botoes numericos" onclick="valor()" value="2" id="2">2</button>
+            <button class="botoes numericos" onclick="valor()" value="2" id="3" value="3">3</button>
+            <button class="botoes operacao" value="+" id="somar">+</button>
+            <button class="botoes numericos zero" value="0" id="zero">0</button>
+            <button class="botoes decimal" value="." id="decimal">.</button>
+            <button class="botoes operacao" value="=" id="enter">=</button>
+
+        </div>
+
+
+    </form>
+
+</body>
+<script src="index.js"></script>
+
+</html>

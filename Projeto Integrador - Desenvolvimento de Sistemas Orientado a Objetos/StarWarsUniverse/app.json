@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Star Wars\nUniverse",
+    "slug": "StarWarsUniverse",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kinodesu.StarWarsUniverse"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "androidStatusBar": {
+      "translucent": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a11236f5-5f9b-4c58-a9ad-486671742753"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a11236f5-5f9b-4c58-a9ad-486671742753"
+    }
+  }
+}
