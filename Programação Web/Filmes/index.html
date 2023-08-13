@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac Filmes</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Cadastro de Filmes</legend>
+            <label for="titulo">Título:</label>
+            <input type="text" name="titulo" id="titulo" placeholder="Nome do Filme" required><br>
+            <label for="sinopse">Sinopse:</label><br>
+            <textarea class="cad" name="sinopse" id="sinopse" cols="50" rows="10" placeholder="Digite..." required></textarea><br>
+            <label for="lancamento">Lançamento:</label>
+            <input type="date" id="lancamento" required><br>
+            <label for="genero">Gênero:</label>
+            <select class="cad" name="genero" id="genero" required>
+                <option value="null" disabled selected>Selecione</option>
+                <option value="acao">Ação</option>
+                <option value="romance">Romance</option>
+                <option value="drama">Drama</option>
+                <option value="comedia">Comédia</option>
+                <option value="terror">Terror</option>
+            </select><br>
+            <label for="nota">Nota:</label>
+            <select class="cad" name="nota" id="nota" required>
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br>
+            <label for="plataforma">Onde Assistir:</label>
+            <select class="cad" name="plataforma" id="plataforma" required>
+                <option value="null" disabled selected>Selecione</option>
+                <option value="netflix">Netflix</option>
+                <option value="disney">Disney</option>
+                <option value="hbo">HBO</option>
+                <option value="amazon prime">Amazon Prime</option>
+            </select><br>
+            <label for="assistido">Assistido:</label>
+            <input type="radio" name="assistido" id="sim" required>
+            <label for="sim">Sim</label>
+            <input type="radio" name="assistido" id="nao" required>
+            <label for="nao">Não</label><br>
+            <label for="poster">Poster:</label>
+            <input type="file" name="poster" id="poster" accept=".png" required>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

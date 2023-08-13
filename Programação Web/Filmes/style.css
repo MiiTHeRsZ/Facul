@@ -1,0 +1,13 @@
+body {
+    background-color: #020009;
+}
+
+fieldset {
+    color: chartreuse;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+legend {
+    text-align: center;
+}

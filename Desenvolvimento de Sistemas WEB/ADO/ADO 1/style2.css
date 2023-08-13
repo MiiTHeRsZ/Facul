@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --bg-color: #5199A2;
+    --bg-accent-color: #AEB5B7;
+    --accent-color: #40867d;
+    --txt-color: #012541;
+    --border-color: #F0F0F0;
+    --footer-color: #5C5C5C;
+
+    --bar-01: #3695ED;
+    --bar-02: #349FC9;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: linear-gradient(var(--bar-01), var(--bar-02));
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    font-family: "Nunito", sans-serif;
+    color: var(--txt-color);
+    background: url("./assets/bg-img.webp") no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    top: 2vh;
+    left: 27vw;
+    width: 50px;
+    height: 50px;
+    margin: 16px auto;
+    padding: 8px;
+    border: 3px solid var(--border-color);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+}
+
+header img:hover {
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+header img {
+    width: 30px;
+    transition: all .3s ease-in-out;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 64px;
+    width: fit-content;
+    border: 5px solid var(--border-color);
+    border-radius: 50px;
+    background-color: rgba(81, 153, 162, .3);
+    backdrop-filter: blur(25px);
+}
+
+hr.rounded {
+    width: 80%;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+section .titulo {
+    font-size: 24PX;
+    font-weight: bold;
+}
+
+#perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+#perfil .principal {
+    display: flex;
+    gap: 24px;
+}
+
+#perfil .principal .imagem-perfil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid var(--border-color);
+    border-radius: 50%;
+}
+
+#perfil .principal .social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#perfil .principal .icone {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+}
+
+#perfil .principal .icone:hover {
+    transform: scale(1.2);
+    transition: all .4s ease-in-out;
+}
+
+#perfil .nome {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#perfil .perfil-info {
+    font-size: 18px;
+}
+
+#perfil .perfil-info fieldset {
+    line-height: 1.2;
+    padding: 16px 32px;
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+}
+
+#experiencia fieldset {
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 16px 32px;
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+}
+
+#experiencia fieldset .cargo {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+#formacao fieldset {
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 16px 32px;
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+}
+
+#formacao fieldset .curso {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+#conhecimento fieldset {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 16px 32px;
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+}
+
+#conhecimento fieldset p span {
+    color: var(--border-color);
+}
+
+#conhecimento fieldset .legend {
+    text-align: end;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+#idioma fieldset {
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 16px 32px;
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+}
+
+#idioma fieldset table {
+    margin: 16px auto;
+    text-align: center;
+}
+
+#idioma fieldset table thead tr th,
+#idioma fieldset table tbody tr td {
+    padding: 8px 24px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+#idioma fieldset table thead tr th {
+    font-weight: bold;
+}
+
+#idioma fieldset table tbody tr td {
+    color: var(--border-color);
+}
+
+#voltar-topo {
+    width: 50px;
+    height: 50px;
+    transition: all .3s ease-in-out;
+}
+
+#voltar-topo:hover {
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+
+footer #copyright {
+    color: var(--footer-color);
+    font-weight: bold;
+}

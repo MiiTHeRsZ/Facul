@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <details>
+        <summary>Tabela</summary>
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Lista de Alunos</th>
+                </tr>
+                <tr>
+                    <th>N.</th>
+                    <th>Nome do Aluno</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Ana</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Brenda magalhães</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>2 Alunos</td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
+
+    <details>
+        <summary>Formulário</summary>
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Dados do Filme</legend>
+                <label for="titulo">Título:</label>
+                <input type="text" name="titulo" id="titulo" placeholder="Digite aqui">
+            </fieldset>
+        </form>
+
+        <input type="radio" name="plataforma" id="netflix">
+        <label for="netflix">Netflix</label>
+
+        <input type="radio" name="plataforma" id="hbo">
+        <label for="hbo">HBO</label>
+
+        <input type="checkbox" name="aceitar" id="aceitar">
+        <label for="aceitar">Aceito os termos</label>
+
+        <br><br>
+        <textarea name="sinopse" id="sinopse" cols="30" rows="10" maxlength="2000"></textarea>
+
+        <br><br>
+        <select name="estado" id="estado">
+            <option value="" disabled selected>Selecione um estado</option>
+            <optgroup label="SUDESTE">
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="es">Espírito Santo</option>
+            </optgroup>
+            <optgroup label="NORDESTE">
+                <option value="ba">Bahia</option>
+                <option value="ce">Ceará</option>
+            </optgroup>
+        </select>
+
+        <meter min="0" max="100" low="30" high="70" optimum="90" value="25"></meter>
+
+        </meter>
+
+        <br><br>
+        <label for="navegador">Escolha seu navegador</label>
+        <input list="navegadores" id="navegador">
+        <datalist id="navegadores">
+            <option value="EDGE">EDGE</option>
+            <option value="Chrome">Chrome</option>
+            <option value="OperaGX">OperaGX</option>
+            <option value="Brave">Brave</option>
+            <option value="FireFox">FireFox</option>
+        </datalist>
+    </details>
+
+    <br><br>
+    <a href="Atividade.html">Next</a>
+
+</body>
+
+</html>

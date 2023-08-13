@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --bg-color: #272B30;
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li.active {
+    border-bottom: 1px solid #AC62FF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.pontos {
+    font-size: 2.5rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+.hide {
+    display: none;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='search'],
+select {
+    color: #FFF;
+    background-color: var(--bg-color);
+    border: 0;
+    padding: .5rem 1rem;
+    box-shadow: inset -4px -4px 4px rgba(82, 82, 82, 0.25), inset 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.botao {
+    background: #AC62FF
+        /*#7800FF*/
+    ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: var(--bg-color);
+    border: 0;
+    padding: .5rem 2rem;
+    cursor: pointer;
+}
+
+.botao:disabled {
+    box-shadow: none;
+    background-color: #333;
+    color: #555;
+}
+
+.card {
+    background: linear-gradient(270deg, #2E3237 0%, #1A1C1F 100%);
+    border: 1px solid #333333;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 180px;
+    animation: slidein 1s ease-in-out;
+}
+
+#tarefas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: #AC62FF;
+}

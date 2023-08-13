@@ -1,0 +1,35 @@
+Norte - PIB regional: 5.37%
+Rondônia - PIB: 0.65%
+Acre - PIB: 0.21%
+Amazonas - PIB: 1.55%
+Roraima - PIB: 0.17%
+Pará - PIB: 2.13%
+Amapá - PIB: 0.22%
+Tocantins - PIB: 0.44%
+
+Nordeste - PIB regional: 13.35%
+Maranhão - PIB: 1.26%
+Piauí - PIB: 0.58%
+Ceará - PIB: 2.11%
+Rio Grande do Norte - PIB: 0.87%
+Paraíba - PIB: 0.85%
+Pernambuco - PIB: 2.52%
+Alagoas - PIB: 0.68%
+Sergipe - PIB: 0.63%
+Bahia - PIB: 3.85%
+
+Sudeste - PIB regional: 55.51%
+Minas Gerais - PIB: 9.34%
+Espírito Santo - PIB: 2.35%
+Rio de Janeiro - PIB: 11.18%
+São Paulo - PIB: 32.64%
+
+Sul - PIB regional: 16.23%
+Paraná - PIB: 5.78%
+Santa Catarina - PIB: 4.09%
+Rio Grande do Sul - PIB: 6.36%
+
+Centro-Oeste - PIB regional: 7.85%
+Mato Grosso do Sul - PIB: 1.19%
+Goiás - PIB: 2.69%
+Distrito Federal - PIB: 3.97%
