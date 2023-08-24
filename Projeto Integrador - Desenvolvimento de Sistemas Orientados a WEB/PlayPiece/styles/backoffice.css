@@ -1,0 +1,21 @@
+@import url("./var.css");
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--txt-color);
+    background-color: var(--bg-color);
+    transition: all .3s ease-in-out;
+}
+
+body nav {
+    text-align: center;
+    margin: 20px;
+}
+
+body nav a {
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 25px;
+    color: var(--txt-accent-color-secondary);
+    background: var(--txt-accent-color-primary);
+}
